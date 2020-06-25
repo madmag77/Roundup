@@ -10,8 +10,8 @@ Once the App is started it:
 1. Checks if more than a week passed from the last roundup (persisted locally, so can be hacked by reinstalling the app)
 2. Checks all accounts of the user (right now user is being defined by his token) and chooses the first account in the list
 3. Checks the list of all saving goals and shoose the first one
-4. Fetches all transactions and calculates a roundup amount
-5. User then can transfer the above mentioned roundup amount from the account (2) to the saving goal (3)
+4. Fetches all transactions in a week and calculates a roundup amount
+5. User then can transfer the above mentioned roundup amount from the account (2) to the saving goal (3) by tapping on the only button
 6. Stores the roundup transfer date locally
 
 ## Assumptions
