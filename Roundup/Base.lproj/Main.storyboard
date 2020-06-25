@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Roundup View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RoundupViewController" customModule="Roundup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roundup App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TK-yO-E7A">
+                                <rect key="frame" x="10" y="144" width="394" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error: No Network" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4N-ZA-bOY">
+                                <rect key="frame" x="10" y="64" width="394" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jae-4q-v3G">
+                                <rect key="frame" x="30" y="223" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fZI-tp-dhs">
+                                <rect key="frame" x="30" y="252" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transfer Roundup Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptL-aC-5uH">
+                                <rect key="frame" x="30" y="344" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SRa-cJ-eY1">
+                                <rect key="frame" x="30" y="373" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To Saving Goal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yp5-WK-0ar">
+                                <rect key="frame" x="30" y="465" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hbb-ru-Cy3">
+                                <rect key="frame" x="30" y="494" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPV-mw-nbj">
+                                <rect key="frame" x="117" y="586" width="180" height="30"/>
+                                <state key="normal" title="Transfer Roundup Amount"/>
+                                <connections>
+                                    <action selector="transferRoundButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0LA-s8-CnT"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="ALr-Rq-vTn">
+                                <rect key="frame" x="197" y="104.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roundup transaction succeeded! See you in a week..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apq-Hm-l4j">
+                                <rect key="frame" x="30" y="636" width="354" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.5" blue="0.14792799821095895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ptL-aC-5uH" firstAttribute="top" secondItem="Jae-4q-v3G" secondAttribute="bottom" constant="100" id="1kp-AO-qwY"/>
+                            <constraint firstItem="SRa-cJ-eY1" firstAttribute="top" secondItem="ptL-aC-5uH" secondAttribute="bottom" constant="8" id="5Ek-5H-G3k"/>
+                            <constraint firstItem="Yp5-WK-0ar" firstAttribute="leading" secondItem="ptL-aC-5uH" secondAttribute="leading" id="6sk-c9-gAB"/>
+                            <constraint firstItem="fZI-tp-dhs" firstAttribute="top" secondItem="Jae-4q-v3G" secondAttribute="bottom" constant="8" id="B3s-DB-HMn"/>
+                            <constraint firstItem="Jae-4q-v3G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="BPE-6y-DwD"/>
+                            <constraint firstItem="apq-Hm-l4j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="F0Q-ys-DX5"/>
+                            <constraint firstItem="Hbb-ru-Cy3" firstAttribute="trailing" secondItem="SRa-cJ-eY1" secondAttribute="trailing" id="FOH-84-Jbm"/>
+                            <constraint firstItem="ptL-aC-5uH" firstAttribute="leading" secondItem="Jae-4q-v3G" secondAttribute="leading" id="Gbq-69-dCT"/>
+                            <constraint firstItem="XPV-mw-nbj" firstAttribute="top" secondItem="Yp5-WK-0ar" secondAttribute="bottom" constant="100" id="Gmk-mH-4np"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8TK-yO-E7A" secondAttribute="trailing" constant="10" id="Iln-cL-4tC"/>
+                            <constraint firstItem="ALr-Rq-vTn" firstAttribute="top" secondItem="T4N-ZA-bOY" secondAttribute="bottom" constant="20" id="Kyv-T8-BHj"/>
+                            <constraint firstItem="T4N-ZA-bOY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="LP2-34-vbx"/>
+                            <constraint firstItem="SRa-cJ-eY1" firstAttribute="leading" secondItem="ptL-aC-5uH" secondAttribute="leading" id="MQi-2X-347"/>
+                            <constraint firstItem="T4N-ZA-bOY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Rnl-kB-b1K"/>
+                            <constraint firstItem="ALr-Rq-vTn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U21-zd-AjG"/>
+                            <constraint firstItem="SRa-cJ-eY1" firstAttribute="trailing" secondItem="fZI-tp-dhs" secondAttribute="trailing" id="UNp-Iq-yyn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jae-4q-v3G" secondAttribute="trailing" constant="30" id="V3k-fz-23G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T4N-ZA-bOY" secondAttribute="trailing" constant="10" id="cBb-W1-LAO"/>
+                            <constraint firstItem="8TK-yO-E7A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ckh-gZ-LSH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fZI-tp-dhs" secondAttribute="trailing" constant="30" id="e8a-Ui-wZt"/>
+                            <constraint firstItem="Jae-4q-v3G" firstAttribute="top" secondItem="8TK-yO-E7A" secondAttribute="bottom" constant="50" id="fTl-DJ-weQ"/>
+                            <constraint firstItem="Hbb-ru-Cy3" firstAttribute="leading" secondItem="Yp5-WK-0ar" secondAttribute="leading" id="gyG-u8-xfZ"/>
+                            <constraint firstItem="apq-Hm-l4j" firstAttribute="top" secondItem="XPV-mw-nbj" secondAttribute="bottom" constant="20" id="jbt-qx-ZtV"/>
+                            <constraint firstItem="XPV-mw-nbj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k1Z-8F-4cc"/>
+                            <constraint firstItem="8TK-yO-E7A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="knZ-3c-koT"/>
+                            <constraint firstItem="fZI-tp-dhs" firstAttribute="leading" secondItem="Jae-4q-v3G" secondAttribute="leading" id="pxb-3f-VMQ"/>
+                            <constraint firstItem="Yp5-WK-0ar" firstAttribute="top" secondItem="ptL-aC-5uH" secondAttribute="bottom" constant="100" id="qWV-6Y-U1I"/>
+                            <constraint firstItem="ptL-aC-5uH" firstAttribute="trailing" secondItem="Jae-4q-v3G" secondAttribute="trailing" id="siS-Kg-BGH"/>
+                            <constraint firstItem="Hbb-ru-Cy3" firstAttribute="top" secondItem="Yp5-WK-0ar" secondAttribute="bottom" constant="8" id="uvK-Be-94t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="apq-Hm-l4j" secondAttribute="trailing" constant="30" id="v03-BL-KaJ"/>
+                            <constraint firstItem="Yp5-WK-0ar" firstAttribute="trailing" secondItem="ptL-aC-5uH" secondAttribute="trailing" id="vYk-mW-nC1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="accountTextField" destination="fZI-tp-dhs" id="S09-YM-Lkd"/>
+                        <outlet property="errorLabel" destination="T4N-ZA-bOY" id="ocF-xa-DXf"/>
+                        <outlet property="roundupAmountTextField" destination="SRa-cJ-eY1" id="r7b-cb-2Tv"/>
+                        <outlet property="roundupSucceeded" destination="apq-Hm-l4j" id="ROi-Ke-OQj"/>
+                        <outlet property="savingGoalTextField" destination="Hbb-ru-Cy3" id="wBC-43-WoO"/>
+                        <outlet property="spinner" destination="ALr-Rq-vTn" id="uFs-8R-ikX"/>
+                        <outlet property="transferRoundupButton" destination="XPV-mw-nbj" id="Ytj-n7-THS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
