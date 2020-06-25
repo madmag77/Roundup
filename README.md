@@ -3,7 +3,7 @@
 This app is an implementation of the Roundup functionality. 
 
 ## How to run the app
-Just open the project in xCode and press Ctrl-R (no pods install, no code generation have been used)
+Just open the project in xCode, insert your sandbox Token to the place holder in a file (Roundup/Core/RestTransport.swift) and press Ctrl-R (no pods install, no code generation have been used)
 
 ## How it works
 Once the App is started it:
