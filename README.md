@@ -34,3 +34,5 @@ Once the App is started it:
 1. Add more unit tests for Business logic and a little for Presenter
 2. Split big functions in Business logic and presenter
 3. Add choice of account, saving goal and week for the user
+
+P.S. Sorry, no commit history...
